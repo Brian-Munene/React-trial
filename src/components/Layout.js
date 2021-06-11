@@ -56,7 +56,7 @@ const Layout = (props) => {
 				placeholder={'search product'}
 				onChange={(e) => updateInput(e.target.value)}
 			/>
-			{inputError && <p>'Your input is wrong</p>}
+			{inputError && <p>Your input is wrong</p>}
 			<Product productList={productList} />
 		</>
 	)
